@@ -1,0 +1,18 @@
+comandos Vim 			Descripción
+i				entrar en el modo de inserción
+Esc				Entrar en el modo comando
+Supr				Borrar un carácter
+X				El carácter de borrado es el modo de retroceso
+u				Deshacer cambios
+Ctrl + R			Rehacer cambios
+yy				Copiar una línea
+dd				Eliminar una línea
+p				Pegar el contenido del buffer
+/<search_term>			Buscar y luego recorrer las coincidencias con n y N
+[[ o gg				Mover al principio de un archivo
+]] o G				Mover al final de un archivo
+:%s/fooo/bar/gci		Buscar y remplazar todas las ocurrencias con confirmación
+Esc + :w			Guardar cambios
+Esc + :wq o Esc + ZZ		Guardar y salir de Vim
+Esc + :q!			forzar la salida de Vim descartando todos los cambios			
+
